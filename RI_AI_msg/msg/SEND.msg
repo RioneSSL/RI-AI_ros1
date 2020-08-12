@@ -1,0 +1,12 @@
+geometry_msgs/Pose2D difference
+float32 		     distance
+float32				 degree
+bool 	             detect
+float32				 goal_degree
+float32 			 move_degree
+float32				 direction
+bool				 spinner
+float32              kickspeedx
+bool 				 stop
+int32				 robot_id
+bool 				 kick_flag

@@ -1,0 +1,6 @@
+<launch>
+  <node name= "RI_AI_main" pkg= "RI_AI_main" type= "main.py" output="screen"/>
+  <node name= "RI_AI_sender" pkg= "RI_AI_sender" type= "robot_send.py" output="screen"/>
+  <node name= "RI_AI_reciever" pkg="RI_AI_reciever" type="vision_recieve.py" output="screen"/>
+  <node name= "RI_AI_referee" pkg= "RI_AI_reciever" type="refree_recieve.py" output="screen"/>
+</launch>

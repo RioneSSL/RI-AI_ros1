@@ -1,0 +1,12 @@
+bool kick_flag
+bool catch_flag
+float32 TH_goal_distance
+int32 robot_id_rem
+bool flag_temp
+bool different_place
+float32 slope
+float32 intercept
+bool[8] arrive
+int32 count_offense
+bool PLAY
+int32 count_position
